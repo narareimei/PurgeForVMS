@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Purge": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Develop\\05_OpenVMS\\Purgeツール作成\\PurgeForVMS\\TestData\\from C:\\Develop\\05_OpenVMS\\Purgeツール作成\\PurgeForVMS\\TestData\\to"
+    }
+  }
+}

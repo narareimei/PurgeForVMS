@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestProject1": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Develop\\05_OpenVMS\\Purgeツール作成\\PurgeForVMS\\TestData"
+    }
+  }
+}
