@@ -19,7 +19,7 @@ namespace TestProject1
         public void TestInitialize()
         {
             // テストデータのあるディレクトリをカレントディレクトリとする
-            Directory.SetCurrentDirectory(@"C:\Develop\05_OpenVMS\Purgeツール作成\PurgeForVMS\TestData");
+            Directory.SetCurrentDirectory(@"C:\Develop\05_OpenVMS\Repo\src\TestData");
 
 
             // テスト対象のprivateメソッドのMethodInfoを取得する
