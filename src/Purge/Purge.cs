@@ -157,9 +157,9 @@ namespace Purge
             {
                 // dir は既にフルパスで返されるので、そのまま使う
                 var toDir = Path.Combine(toPath, dir);
-                if( toDir.EndsWith(".DIR", StringComparison.OrdinalIgnoreCase) == true)
+                if( toDir.EndsWith(".DIR;1", StringComparison.OrdinalIgnoreCase) == true)
                 {
-                    toDir = toDir.Substring(0, toDir.Length - 4);
+                    toDir = toDir.Substring(0, toDir.Length - 6);
                 }
                 
                 // 出力先にディレクトリを作成する

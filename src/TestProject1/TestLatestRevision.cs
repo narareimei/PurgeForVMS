@@ -73,7 +73,7 @@ namespace TestProject1
             var directories = new List<string>();
 
             // 正常終了の確認
-            var result = _miCollectLatestRevisions!.Invoke(null, [@".\from\SRC.DIR", revisionInfo, directories]);
+            var result = _miCollectLatestRevisions!.Invoke(null, [@".\from\SRC.DIR;1", revisionInfo, directories]);
             Assert.IsTrue(result is bool);
             Assert.IsTrue((bool)result);
 
